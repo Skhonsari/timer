@@ -1,0 +1,28 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "timer",
+  "main": "dest/timer.js",
+  "scripts": {
+    "start": "node dest/timer.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skhonsari/timer.git"
+  },
+  "author": "Siavash Khonsari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skhonsari/timer/issues"
+  },
+  "homepage": "https://github.com/Skhonsari/timer#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/readline-sync": "^1.4.3",
+    "typescript": "^3.5.3"
+  }
+}
