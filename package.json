@@ -5,7 +5,9 @@
   "main": "dest/timer.js",
   "scripts": {
     "start": "node dest/timer.js",
-    "build": "tsc"
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,13 +18,14 @@
   "bugs": {
     "url": "https://github.com/Skhonsari/timer/issues"
   },
-  "homepage": "https://github.com/Skhonsari/timer#readme",
+  "homepage": "http://skhonasri.github.io/timer",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@types/node": "^12.6.9",
     "@types/readline-sync": "^1.4.3",
+    "gh-pages": "^3.1.0",
     "typescript": "^3.5.3"
   }
 }
